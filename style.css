@@ -1,0 +1,104 @@
+body { 
+    background-image: url('image1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+::placeholder { 
+    color: white;
+    font-size: large;
+}
+.addNewItem{
+    height: 10%; 
+    width: 90%; 
+    margin-top: 5%; 
+    margin-left: 5%; 
+    background-color: black;
+    opacity: 0.7;
+    align-items:justify;
+    border-radius: 0.5rem;
+}
+.addNewItem:hover {
+    padding-left: 0.5rem;
+    border-left: 0.2rem solid #00ff99;
+  }
+.addItem{
+    height: 87%; 
+    width: 40%;  
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    border: 0px;
+}
+.addNewButton:hover {     
+    color: red;   
+}
+
+.addNewButton{
+    height: 95%;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    border: 0px;
+    font-size: xx-large;
+    margin-right: 1%;
+    margin-left: 0.5%;
+}
+.addClearButton{
+    margin-left: 2%;
+    height: 50%;
+    width: 10%;
+    display: none;
+}
+.viewItem{
+    text-align: justify;
+    border: none;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    height: 5%; 
+    width: 63%; 
+    margin-top: 2%; 
+    margin-left: 9%;
+    padding-top: 1%;
+    padding-left: 1%;
+    border-radius: 0.5rem;
+    border:dotted 5px hsla(0, 95%, 35%, 1);
+}
+.btn-group{
+    float:right;
+    padding-right: 1%;
+}
+.viewItem .btn-group{
+    display:inline-block; 
+}
+.tarDate{
+    background-color: black;
+    opacity: 0.7;
+    font-size: x-large;
+    color: white;
+}
+.eventParent{
+    width: 75%;
+    float: left;
+}
+.archieveParent{
+    width: 20%;
+    padding-top: 0.5%;
+    float: right;
+    margin-top: 2%;
+    background-color: wheat;
+    border-radius: 0.3rem;
+    margin-right: 5%;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 00.5%;
+}
+.line{
+    border-bottom: solid grey;
+}
+#arc{
+    height: 4%;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+}
